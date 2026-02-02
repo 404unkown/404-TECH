@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBERDARK | Advanced Monitoring & Automation Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Orbitron:wght@400;500;700;800;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://files.catbox.moe/xgzxte.png">
+</head>
+<body>
+    <!-- Animated Cyber Background -->
+    <div class="cyber-bg">
+        <div class="grid-overlay"></div>
+        <div class="cyber-line line-1"></div>
+        <div class="cyber-line line-2"></div>
+        <div class="cyber-line line-3"></div>
+        <div class="glow-particle p1"></div>
+        <div class="glow-particle p2"></div>
+        <div class="glow-particle p3"></div>
+        <div class="glow-particle p4"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="cyber-header">
+        <div class="container">
+            <nav class="cyber-nav">
+                <!-- Logo -->
+                <div class="cyber-logo">
+                    <div class="logo-icon">
+                        <img src="https://files.catbox.moe/xgzxte.png" alt="CYBERDARK" class="logo-img">
+                    </div>
+                    <div class="logo-text">
+                        <span class="cyber-text">CYBER</span>
+                        <span class="dark-text">DARK</span>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-links">
+                    <a href="#home" class="nav-link active" data-text="HOME">
+                        <span class="link-text">HOME</span>
+                        <span class="link-hover"></span>
+                    </a>
+                    <a href="#bots" class="nav-link" data-text="BOTS">
+                        <span class="link-text">BOTS</span>
+                        <span class="link-hover"></span>
+                    </a>
+                    <a href="#apps" class="nav-link" data-text="APPS">
+                        <span class="link-text">APPS</span>
+                        <span class="link-hover"></span>
+                    </a>
+                    <a href="#tools" class="nav-link" data-text="TOOLS">
+                        <span class="link-text">TOOLS</span>
+                        <span class="link-hover"></span>
+                    </a>
+                    <a href="#contact" class="nav-link" data-text="CONTACT">
+                        <span class="link-text">CONTACT</span>
+                        <span class="link-hover"></span>
+                    </a>
+                </div>
+
+                <!-- Social & Actions -->
+                <div class="nav-actions">
+                    <div class="social-icons">
+                        <a href="https://t.me/Four04unkown" target="_blank" class="social-icon telegram" title="Telegram">
+                            <i class="fab fa-telegram-plane"></i>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029Vb5ytZEE50UbwV7xBv1k" target="_blank" class="social-icon whatsapp" title="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://github.com/404unkown" target="_blank" class="social-icon github" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://youtube.com/@404Tech-b7r" target="_blank" class="social-icon youtube" title="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+
+                    <a href="https://t.me/Four04unkown" target="_blank" class="btn btn-cyber">
+                        <i class="fas fa-terminal"></i> GET ACCESS
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Toggle -->
+                <button class="cyber-menu-toggle" id="cyberMenuToggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="cyber-mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-container">
+            <div class="mobile-menu-header">
+                <div class="mobile-logo">
+                    <img src="https://files.catbox.moe/xgzxte.png" alt="CYBERDARK">
+                    <span>CYBERDARK</span>
+                </div>
+                <button class="close-cyber-menu" id="closeMenu">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <div class="mobile-menu-links">
+                <a href="#home" class="mobile-link">
+                    <i class="fas fa-home"></i>
+                    <span>HOME</span>
+                </a>
+                <a href="#bots" class="mobile-link">
+                    <i class="fas fa-robot"></i>
+                    <span>WHATSAPP BOTS</span>
+                </a>
+                <a href="#apps" class="mobile-link">
+                    <i class="fas fa-eye"></i>
+                    <span>SPY APPLICATIONS</span>
+                </a>
+                <a href="#tools" class="mobile-link">
+                    <i class="fas fa-tools"></i>
+                    <span>TOOLS</span>
+                </a>
+                <a href="#contact" class="mobile-link">
+                    <i class="fas fa-comment-alt"></i>
+                    <span>CONTACT</span>
+                </a>
+            </div>
+
+            <div class="mobile-social">
+                <a href="https://t.me/Four04unkown" target="_blank" class="mobile-social-btn">
+                    <i class="fab fa-telegram-plane"></i> Telegram
+                </a>
+                <a href="https://whatsapp.com/channel/0029Vb5ytZEE50UbwV7xBv1k" target="_blank" class="mobile-social-btn">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="cyber-hero" id="home">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-text">ADVANCED TECHNOLOGY</span>
+                        <div class="badge-glow"></div>
+                    </div>
+
+                    <h1 class="hero-title">
+                        <span class="title-line">DIGITAL</span>
+                        <span class="title-line highlight">MONITORING</span>
+                        <span class="title-line">SOLUTIONS</span>
+                    </h1>
+
+                    <p class="hero-subtitle">
+                        Professional WhatsApp automation, device monitoring, and security solutions 
+                        powered by advanced AI technology. Complete control at your fingertips.
+                    </p>
+
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-number" data-count="1000">0</div>
+                            <div class="stat-label">ACTIVE USERS</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number" data-count="99">0</div>
+                            <div class="stat-label">SUCCESS RATE</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number" data-count="24">0</div>
+                            <div class="stat-label">/7 SUPPORT</div>
+                        </div>
+                    </div>
+
+                    <div class="hero-actions">
+                        <a href="#bots" class="btn btn-primary">
+                            <i class="fas fa-robot"></i> EXPLORE BOTS
+                        </a>
+                        <a href="#apps" class="btn btn-secondary">
+                            <i class="fas fa-shield-alt"></i> VIEW APPS
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="cyber-terminal">
+                        <div class="terminal-header">
+                            <div class="terminal-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="terminal-title">SYSTEM TERMINAL</div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="terminal-line">
+                                <span class="prompt">$</span>
+                                <span class="command">status --system</span>
+                            </div>
+                            <div class="terminal-output">
+                                <div class="output-line">✓ SYSTEM: <span class="success">ONLINE</span></div>
+                                <div class="output-line">✓ BOTS: <span class="success">ACTIVE</span></div>
+                                <div class="output-line">✓ SERVICES: <span class="success">RUNNING</span></div>
+                                <div class="output-line">✓ SECURITY: <span class="warning">ENHANCED</span></div>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="prompt">$</span>
+                                <span class="command blinking">_</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Bots Section -->
+    <section class="section cyber-bots" id="bots">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">
+                    <span class="label-text">WHATSAPP AUTOMATION</span>
+                    <div class="label-line"></div>
+                </div>
+                <h2 class="section-title">ADVANCED <span class="highlight">BOT SYSTEMS</span></h2>
+                <p class="section-subtitle">Powerful automation tools with unique capabilities for messaging and monitoring</p>
+            </div>
+
+            <div class="bots-grid">
+                <!-- Bot 1: 404-XMD -->
+                <div class="cyber-card bot-card">
+                    <div class="card-header">
+                        <div class="bot-icon">
+                            <img src="https://files.catbox.moe/9k5pq0.png" alt="404-XMD" 
+                                 onerror="this.src='https://api.dicebear.com/7.x/bottts/svg?seed=404xmd&backgroundColor=0d0d1a&hair=variant08'">
+                        </div>
+                        <div class="bot-info">
+                            <h3 class="bot-name">404-XMD</h3>
+                            <div class="bot-status active">
+                                <span class="status-dot"></span>
+                                ACTIVE
+                            </div>
+                        </div>
+                        <div class="bot-platform">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WHATSAPP</span>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <p class="bot-description">
+                            Advanced automation bot with multi-functional capabilities for messaging, 
+                            group management, and automated responses.
+                        </p>
+
+                        <div class="bot-features">
+                            <span class="feature"><i class="fas fa-check"></i> Auto Messaging</span>
+                            <span class="feature"><i class="fas fa-check"></i> Group Control</span>
+                            <span class="feature"><i class="fas fa-check"></i> Media Handler</span>
+                            <span class="feature"><i class="fas fa-check"></i> Custom Commands</span>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <a href="https://four04-the-goat.onrender.com/" target="_blank" class="btn btn-pair">
+                            <i class="fas fa-external-link-alt"></i> ACCESS PAIR SITE
+                        </a>
+                        <div class="deployment-options">
+                            <span class="deployment-label">DEPLOYMENT:</span>
+                            <span class="deployment-plan">$50 (Hosted)</span>
+                            <span class="deployment-plan free">FREE (Self-Host)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bot 2: MAD-MAX -->
+                <div class="cyber-card bot-card">
+                    <div class="card-header">
+                        <div class="bot-icon">
+                            <img src="https://files.catbox.moe/dgx6oa.png" alt="MAD-MAX" 
+                                 onerror="this.src='https://api.dicebear.com/7.x/bottts/svg?seed=madmax&backgroundColor=0d0d1a&hair=variant12'">
+                        </div>
+                        <div class="bot-info">
+                            <h3 class="bot-name">MAD-MAX</h3>
+                            <div class="bot-status active">
+                                <span class="status-dot"></span>
+                                ACTIVE
+                            </div>
+                        </div>
+                        <div class="bot-platform">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WHATSAPP</span>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <p class="bot-description">
+                            High-performance monitoring bot with advanced tracking, 
+                            surveillance capabilities, and stealth operation.
+                        </p>
+
+                        <div class="bot-features">
+                            <span class="feature"><i class="fas fa-check"></i> Location Tracking</span>
+                            <span class="feature"><i class="fas fa-check"></i> SMS Monitoring</span>
+                            <span class="feature"><i class="fas fa-check"></i> Media Access</span>
+                            <span class="feature"><i class="fas fa-check"></i> Stealth Mode</span>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <a href="https://pair-1-3xsl.onrender.com/" target="_blank" class="btn btn-pair">
+                            <i class="fas fa-external-link-alt"></i> ACCESS PAIR SITE
+                        </a>
+                        <div class="deployment-options">
+                            <span class="deployment-label">DEPLOYMENT:</span>
+                            <span class="deployment-plan">$50 (Hosted)</span>
+                            <span class="deployment-plan free">FREE (Self-Host)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Spy Applications Section -->
+    <section class="section cyber-apps" id="apps">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">
+                    <span class="label-text">MONITORING SOLUTIONS</span>
+                    <div class="label-line"></div>
+                </div>
+                <h2 class="section-title">SPY <span class="highlight">APPLICATIONS</span></h2>
+                <p class="section-subtitle">Professional monitoring tools for comprehensive device surveillance (100 KSH per service)</p>
+            </div>
+
+            <div class="apps-grid">
+                <!-- App 1 -->
+                <div class="cyber-card app-card">
+                    <div class="app-icon">
+                        <i class="fas fa-sms"></i>
+                    </div>
+                    <h3 class="app-title">SMS SPY</h3>
+                    <p class="app-description">
+                        Monitor all incoming and outgoing text messages. Complete SMS tracking with timestamp.
+                    </p>
+                    <div class="app-price">
+                        <span class="price">100 KSH</span>
+                        <span class="period">ONE-TIME PAYMENT</span>
+                    </div>
+                    <button class="btn btn-purchase" data-app="sms">
+                        <i class="fas fa-shopping-cart"></i> PURCHASE SERVICE
+                    </button>
+                </div>
+
+                <!-- App 2 -->
+                <div class="cyber-card app-card">
+                    <div class="app-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 class="app-title">LOCATION SPY</h3>
+                    <p class="app-description">
+                        Real-time GPS tracking and location history. Know exact position anytime.
+                    </p>
+                    <div class="app-price">
+                        <span class="price">100 KSH</span>
+                        <span class="period">ONE-TIME PAYMENT</span>
+                    </div>
+                    <button class="btn btn-purchase" data-app="location">
+                        <i class="fas fa-shopping-cart"></i> PURCHASE SERVICE
+                    </button>
+                </div>
+
+                <!-- App 3 -->
+                <div class="cyber-card app-card">
+                    <div class="app-icon">
+                        <i class="fas fa-images"></i>
+                    </div>
+                    <h3 class="app-title">GALLERY SPY</h3>
+                    <p class="app-description">
+                        Access photos, videos, and media files from device gallery remotely.
+                    </p>
+                    <div class="app-price">
+                        <span class="price">100 KSH</span>
+                        <span class="period">ONE-TIME PAYMENT</span>
+                    </div>
+                    <button class="btn btn-purchase" data-app="gallery">
+                        <i class="fas fa-shopping-cart"></i> PURCHASE SERVICE
+                    </button>
+                </div>
+
+                <!-- App 4 -->
+                <div class="cyber-card app-card">
+                    <div class="app-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="app-title">PHONE SPY</h3>
+                    <p class="app-description">
+                        Get device information, contacts, call logs, and app data.
+                    </p>
+                    <div class="app-price">
+                        <span class="price">100 KSH</span>
+                        <span class="period">ONE-TIME PAYMENT</span>
+                    </div>
+                    <button class="btn btn-purchase" data-app="phone">
+                        <i class="fas fa-shopping-cart"></i> PURCHASE SERVICE
+                    </button>
+                </div>
+            </div>
+
+            <div class="purchase-note">
+                <i class="fas fa-info-circle"></i>
+                <p>All purchases require contacting us on Telegram. After payment, you'll receive setup instructions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section class="section cyber-tools" id="tools">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">
+                    <span class="label-text">UTILITY TOOLS</span>
+                    <div class="label-line"></div>
+                </div>
+                <h2 class="section-title">CYBER <span class="highlight">TOOLS</span></h2>
+                <p class="section-subtitle">Additional utilities for enhanced functionality and operations</p>
+            </div>
+
+            <div class="tools-grid">
+                <div class="cyber-card tool-card">
+                    <div class="tool-header">
+                        <div class="tool-icon">
+                            <i class="fab fa-telegram"></i>
+                        </div>
+                        <div class="tool-info">
+                            <h3 class="tool-title">TELEGRAM ID FINDER</h3>
+                            <p class="tool-description">Find any Telegram user's Chat ID with precision tool</p>
+                        </div>
+                    </div>
+                    <div class="tool-body">
+                        <p>Essential tool for bot integration and Telegram automation. Quick and accurate results.</p>
+                        <a href="https://nuch.onrender.com/" target="_blank" class="btn btn-tool">
+                            <i class="fas fa-external-link-alt"></i> OPEN TOOL
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="cyber-footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand Info -->
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="https://files.catbox.moe/xgzxte.png" alt="CYBERDARK">
+                        <div class="logo-text">
+                            <span>CYBER</span>
+                            <span>DARK</span>
+                        </div>
+                    </div>
+                    <p class="footer-tagline">
+                        Advanced monitoring and automation solutions powered by cutting-edge technology.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://t.me/Four04unkown" target="_blank" class="social-link">
+                            <i class="fab fa-telegram-plane"></i>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029Vb5ytZEE50UbwV7xBv1k" target="_blank" class="social-link">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://github.com/404unkown" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://youtube.com/@404Tech-b7r" target="_blank" class="social-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h4 class="footer-title">QUICK LINKS</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#bots"><i class="fas fa-chevron-right"></i> WhatsApp Bots</a></li>
+                        <li><a href="#apps"><i class="fas fa-chevron-right"></i> Spy Applications</a></li>
+                        <li><a href="https://four04-the-goat.onrender.com/" target="_blank"><i class="fas fa-chevron-right"></i> 404-XMD Pair</a></li>
+                        <li><a href="https://pair-1-3xsl.onrender.com/" target="_blank"><i class="fas fa-chevron-right"></i> MAD-MAX Pair</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-section">
+                    <h4 class="footer-title">CONTACT & SUPPORT</h4>
+                    <div class="contact-info">
+                        <a href="https://t.me/Four04unkown" target="_blank" class="contact-item">
+                            <i class="fab fa-telegram-plane"></i>
+                            <span>@Four04unkown</span>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029Vb5ytZEE50UbwV7xBv1k" target="_blank" class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WhatsApp Channel</span>
+                        </a>
+                        <a href="https://github.com/404unkown" target="_blank" class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <span>404unkown</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Payment Info -->
+                <div class="footer-section">
+                    <h4 class="footer-title">PAYMENT INFORMATION</h4>
+                    <div class="payment-info">
+                        <div class="payment-item">
+                            <i class="fas fa-robot"></i>
+                            <span>Bot Hosting: $50 / FREE</span>
+                        </div>
+                        <div class="payment-item">
+                            <i class="fas fa-eye"></i>
+                            <span>Spy Apps: 100 KSH each</span>
+                        </div>
+                        <div class="payment-item">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <span>Contact for purchases</span>
+                        </div>
+                    </div>
+                    <a href="https://t.me/Four04unkown" target="_blank" class="btn btn-telegram-full">
+                        <i class="fab fa-telegram-plane"></i> CONTACT ON TELEGRAM
+                    </a>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="copyright">
+                    &copy; 2026 CYBERDARK. All rights reserved.
+                </div>
+                <div class="footer-disclaimer">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <p>This website is for educational and demonstration purposes only. Use services responsibly and in compliance with applicable laws.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Purchase Modal -->
+    <div class="cyber-modal" id="purchaseModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3><i class="fas fa-shopping-cart"></i> SERVICE PURCHASE</h3>
+                <button class="modal-close" id="closeModal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <div class="modal-icon">
+                    <i class="fas fa-paper-plane"></i>
+                </div>
+
+                <h4 id="modalAppTitle">SMS SPY SERVICE</h4>
+
+                <p id="modalAppDescription">
+                    You will be redirected to Telegram to complete the purchase process.
+                </p>
+
+                <div class="modal-price">
+                    <span class="price-label">PRICE:</span>
+                    <span class="price-value" id="modalPrice">100 KSH</span>
+                </div>
+
+                <div class="modal-instructions">
+                    <div class="instruction">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Contact on Telegram for payment</span>
+                    </div>
+                    <div class="instruction">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Receive setup instructions</span>
+                    </div>
+                    <div class="instruction">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Get 24/7 support</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-cancel" id="cancelPurchase">CANCEL</button>
+                <a href="https://t.me/Four04unkown" target="_blank" class="btn btn-confirm" id="confirmPurchase">
+                    <i class="fab fa-telegram-plane"></i> CONTINUE TO TELEGRAM
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
