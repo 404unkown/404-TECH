@@ -10,27 +10,27 @@
     --cyber-green: #00ff9d;
     --cyber-red: #ff2a6d;
     --cyber-yellow: #ffcc00;
-
+    
     /* Gradients */
     --gradient-cyber: linear-gradient(135deg, var(--cyber-blue), var(--cyber-purple));
     --gradient-dark: linear-gradient(135deg, var(--cyber-dark), var(--cyber-black));
     --gradient-glow: linear-gradient(135deg, var(--cyber-blue), var(--cyber-pink));
-
+    
     /* Text */
     --text-primary: #ffffff;
     --text-secondary: #a0a0c0;
     --text-glow: #00f3ff;
-
+    
     /* Cards & UI */
     --card-bg: rgba(18, 18, 27, 0.8);
     --card-border: rgba(0, 243, 255, 0.2);
     --glass-bg: rgba(255, 255, 255, 0.05);
-
+    
     /* Effects */
     --glow-shadow: 0 0 20px rgba(0, 243, 255, 0.3);
     --glow-strong: 0 0 30px rgba(0, 243, 255, 0.5);
     --neon-text: 0 0 10px rgba(0, 243, 255, 0.8);
-
+    
     /* Spacing */
     --container-padding: 20px;
     --section-spacing: 80px;
@@ -1643,19 +1643,19 @@ body {
     .nav-links {
         display: none;
     }
-
+    
     .cyber-menu-toggle {
         display: flex;
     }
-
+    
     .nav-actions .btn-cyber {
         display: none;
     }
-
+    
     .hero-title {
         font-size: 2.5rem;
     }
-
+    
     .section-title {
         font-size: 2rem;
     }
@@ -1665,31 +1665,31 @@ body {
     .hero-grid {
         gap: 40px;
     }
-
+    
     .hero-title {
         font-size: 2rem;
     }
-
+    
     .hero-stats {
         gap: 20px;
     }
-
+    
     .stat-number {
         font-size: 2rem;
     }
-
+    
     .hero-actions {
         flex-direction: column;
     }
-
+    
     .btn {
         width: 100%;
     }
-
+    
     .footer-grid {
         gap: 40px;
     }
-
+    
     .modal-footer {
         flex-direction: column;
     }
@@ -1700,35 +1700,35 @@ body {
         --container-padding: 15px;
         --section-spacing: 60px;
     }
-
+    
     .hero-title {
         font-size: 1.8rem;
     }
-
+    
     .section-title {
         font-size: 1.8rem;
     }
-
+    
     .cyber-card {
         padding: 20px;
     }
-
+    
     .bot-card .card-header {
         flex-direction: column;
         text-align: center;
         gap: 15px;
     }
-
+    
     .bot-platform {
         flex-direction: row;
     }
-
+    
     .deployment-options {
         flex-direction: column;
         align-items: center;
         gap: 10px;
     }
-
+    
     .purchase-note {
         flex-direction: column;
         text-align: center;
@@ -1771,12 +1771,12 @@ body {
     .cyber-modal {
         display: none !important;
     }
-
+    
     body {
         background: white !important;
         color: black !important;
     }
-
+    
     .container {
         max-width: 100% !important;
         padding: 0 !important;
